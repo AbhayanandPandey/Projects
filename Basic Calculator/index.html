@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="dark">
+            
+        </div>
+        <div class="up" id="div1" contenteditable="true" placeholder="0"
+        oncut="return false"
+        onpaste="return false"
+        onkeydown="if(event.metaKey) return true; return false; ">
+          
+        </div>
+        <div class="down">
+            <div class="ff0">
+                <button class="b1b" onclick="funBa()">
+                    <i class="fa-solid fa-backward"></i>
+            </button>
+            <button class="b1A" onclick="funAc()">
+                AC
+            </button>
+            <button class="b1AN" onclick="funAns()">
+                ANS
+            </button>
+            <button class="b1%" onclick="funMod()">
+                %
+            </button>
+        </div>
+            <div class="ff1">
+                <button class="b17" id="bl1" onclick="fun7()">
+                    7
+                </button>
+                <button class="b18" onclick="fun8()">
+                    8
+                </button>
+                <button class="b19" onclick="fun9()">
+                    9
+                </button>
+                <button class="b1÷" onclick="funDiv()">
+                    ÷
+                </button>
+            </div>
+            <div class="ff2">
+                <button class="b14" onclick="fun4()">
+                4
+            </button>
+            <button class="b15" onclick="fun5()">
+                5
+            </button>
+            <button class="b16" onclick="fun6()">
+                6
+            </button>
+            <button class="b1×" onclick="funMul()">
+                ×
+            </button></div>
+            <div class="ff3">
+                <button class="b11" onclick="fun1();">
+                    1
+                </button>
+                <button class="b12"onclick="fun2()">
+                    2
+                </button>
+                <button class="b13" onclick="fun3()">
+                    3
+                </button>
+                <button class="b1-"onclick="funMinus()">
+                    -
+                </button></div>
+            <div class="ff4">
+                <button class="b10" onclick="fun0()">
+                    0
+                </button>
+                <button class="b1."onclick="fundot()">
+                    .
+                </button>
+                <button class="b1="onclick="funEqual()">
+                    =
+                </button>
+                <button class="b1+"onclick="funPlus()">
+                    +
+                </button>
+            </div>
+                
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
