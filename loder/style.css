@@ -1,0 +1,84 @@
+ *{ 
+        Margin:0;
+        Padding:0;
+        Box-sizing: border-box;
+        Font-family: sans-serif;
+        }
+        
+        body{ 
+        Width:100%;
+        Height:100%;
+        background-color: black;
+        }
+        .main{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .a1{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            border-radius: 50%;
+            border-right-color: transparent;
+            animation: a1 2s linear infinite  ;
+        }
+        .a2{
+            width: 65px;
+            height: 65px;
+            border: 2px solid rgb(255, 0, 0);
+            border-radius: 50%;
+            border-left-color: transparent;
+            animation: a1 4s linear infinite  ;
+            position: absolute;
+        }
+        .a3{
+            width: 80px;
+            height: 80px;
+            border: 2px solid rgb(21, 255, 0);
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: a1 3s linear infinite  ;
+            position: absolute;
+        }
+        .a4{
+            width: 95px;
+            height: 95px;
+            border: 2px solid rgb(43, 0, 255);
+            border-radius: 50%;
+            border-bottom-color: transparent;
+            animation: a1 2s linear infinite  ;
+            position: absolute;
+        }
+        .a5{
+            position: absolute;
+            width: 110px;
+            height: 110px;
+            border: 2px solid rgb(255, 0, 153);
+            border-radius: 50%;
+            border-right-color: transparent;
+            animation: a1 4s linear infinite  ;
+        }
+        @keyframes a1{
+            0%{
+                opacity: 1;
+            }
+            25%{
+                opacity: 1;
+            }
+            50%{
+                opacity: 1;
+            }
+            75%{
+                opacity: 1;
+            }
+            100%{
+                transform: rotate(360deg);
+                opacity: 1;
+            }
+        }
