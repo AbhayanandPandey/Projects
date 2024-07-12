@@ -1,29 +1,37 @@
+body
+{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
 .main
 {
     width: 425px;
-    height: 400px;
+    height: 450px;
     margin: 0 auto;
+    padding-top:20px;
+    background-color: #6f6d6d;
     margin-top: 150px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 .up
 {
-    width: 405px;
+    width: 365px;
     height: 56px;
-     background-color: rgb(162, 247, 255);
+    margin-left: 18px;
+    background-color:#4a4949;
     border-radius: 5px;
     font-size: 30px;
     text-align: end;
     pointer-events: none;
     font-family: sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding-top: 18px;
     padding-right: 20px;
 }
 .down
 {
     margin-top: 20px;
-    background-color: rgb(162, 247, 255);
     width: 100%;
     padding-top: 10px;
     height: 340px;
@@ -42,65 +50,8 @@ button{
     margin-left: 18px;
     margin-top: 10px;
     outline: none;  
-    border-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color:#4a4949;
+    color: rgb(255, 255, 255);
     border-radius: 4px;
     font-size: 22px;
 }
-#result
-{
-    width: 405px;
-    height: 67px;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    offset: none;
-    offset: 0px ;
-    background-color:rgb(255, 255, 255);
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 30px;
-
-}
-.calc
-{
-     text-align: start;
-    font-size: 22px;
-    font-family: sans-serif;
-    font-weight: 600;
-    width:100px; 
-}
-.right
-{
-    width: 200px;
-}
-.dark
-{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: end;
-    width: 400px;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 50px;
-}
-.fa-moon
-{
-cursor: pointer;
-font-size: 25px;
-}
-.fa-sun
-{
-font-size: 25px;
-cursor: pointer;
-}
-/* body{
-    background-color: #76bdf4;
-}
-button
-{
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-} */
