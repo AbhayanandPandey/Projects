@@ -1,0 +1,40 @@
+* {
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+    Font-family: sans-serif;
+}
+body {
+    Width: 100%;
+    Height: 100%;
+}
+.main {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 200px;
+}
+.c1 {
+    width: 300px;
+    height: 200px;
+    overflow-x: hidden;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-left: 10px;
+    box-shadow: 3px 3px 10px rgb(182, 177, 177) , -3px -3px 10px rgb(182, 177, 177);
+}
+
+.m {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    left: 50%;
+}
