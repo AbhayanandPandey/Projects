@@ -1,0 +1,83 @@
+#speak
+{
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 4px;
+    padding-left: 55px;
+    margin-top: 50px;
+    border-color: black;
+    offset:unset;
+    border: none;
+}
+.h2{
+    text-transform: uppercase;
+    color: white;
+}
+#speak:focus
+{
+    border: none;
+    outline: none;
+}
+#submit
+{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+    color: black;
+    border: none;
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+#submit:focus
+{
+    transform: scale(.95);
+    transition: 0.5s;
+}
+#submit:not( :hover)
+{
+    transform: scale(1);
+}
+#voice:focus
+{
+    transform: scale(.5);
+    transition: 0.5s;
+}
+#voice:not( :hover)
+{
+    transform: scale(1);
+}
+.main
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #52bdff;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+.voice
+{
+    
+    width: 40px;
+    height: 31px;
+    padding-top: 8px;
+    position: absolute;
+    top: 153px;
+    left: 45px;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    cursor: pointer;
+}
+.fa-solid
+{
+    margin-top: 4px;
+}
