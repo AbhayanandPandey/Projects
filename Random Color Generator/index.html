@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Random Color Generator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 id="text">
+        
+    </h3><br>
+    <h4 id="col"></h4>
+
+    <div class="color">
+
+    </div>
+    <button onclick="generateColor()"> Generate Random Color</button>
+</body>
+<script>
+    function generateColor()
+    {
+        var color = "rgb(";
+        for(var i=0;i<3;i++)
+        {
+            color += Math.floor(Math.random()*256);
+            if(i<2)
+            {
+                color += ",";
+            }
+        }
+                color += ")";
+                document.querySelector(".color").style.backgroundColor = color;
+                document.getElementById("text").innerText="Generated Color is :"
+                document.getElementById("col").innerHTML=color
+                document.getElementById('col').style.color=color
+
+    }
+</script>
+</html>

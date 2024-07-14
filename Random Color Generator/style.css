@@ -1,0 +1,42 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.color
+{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 10px grey;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: 
+    rgb(87,101,155);
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h3
+{
+    text-align: center;
+    margin-top: 170px;
+}
+h4{
+    text-align: center;
+    margin-top: -20px;
+}
