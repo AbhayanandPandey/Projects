@@ -1,0 +1,89 @@
+body
+        {
+            background-color: #4f5b61;
+            
+        }
+        .main
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 800px;
+            height: 570px;
+            background-color: #5b84ff;
+            border-radius: 4px;
+        }
+        .child
+        {
+            width: 80%;
+            height: 80%;
+            background-color: #fff;
+            border-radius:2px ;
+        }
+        .text
+        {
+            width: 100%;
+            height: 62%;
+        }
+        .author
+        {
+            width: 42%;
+            height: 25%;
+            color: rgb(158, 17, 17);
+            margin-left: 370px;
+            font-family: cursive;
+            font-size: 20px;
+            color: #8a8888;
+        }
+        button
+        {
+            width: 100%;
+            height: 13%;
+            background-color: #0040ff;
+            border: none;
+            font-size: 22px;
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .mail
+        {
+            display: flex;
+            justify-content: end;
+        }
+        .triangle-left {
+	        width: 0;
+	        height: 0;
+	        border-top: 0px solid transparent;
+            border-right: 103px solid #d6d6d6;
+            border-bottom: 85px solid transparent
+        }
+        .quot
+        {
+            font-size: 200px;
+            display: flex;
+            color: #8a8888;
+            margin-left: 30px;
+            width: 100px;
+            height: 100px;
+            justify-content: start;
+        }
+        .head
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        .tex
+        {
+            width: 80%;
+            margin-left: 10%;
+            height: 43%;
+            font-family: cursive;
+            font-size: 20px;
+            color: #8a8888;
+            padding-top: 50px;
+        }
