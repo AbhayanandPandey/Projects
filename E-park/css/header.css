@@ -278,12 +278,17 @@ a {
     .active .navbar {
         transform: translateX(0);
         opacity: 1;
+        z-index: 1;
+        position: fixed;
         visibility: visible;
         pointer-events: auto;
     }
 
     .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
         display: block;
+        margin-top: -23px;
+        margin-left: -9%;
+        position: fixed;
     }
 
     .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
